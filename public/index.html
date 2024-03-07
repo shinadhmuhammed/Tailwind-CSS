@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind css</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="text-gray-600">
+    <div>
+        <div class="grid grid-cols-3 ">
+            <nav>
+                <div>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100 font-serif">
+                        <a href="/">Food</a>
+                    </h1>
+                </div>
+                <ul class="flex p-5 gap-4">
+                    <li class="text-gray-700">
+                        <a href="#"> <span>home</span></a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>about</span></a>
+                    </li>
+                    <li>
+                        <a href="#"> <span>contact</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--end-->
+
+       <main class="px-16 py-6 bg-gray-100">
+        <div class="text-red-400 flex justify-center md:justify-end">
+            <a href="" class="border border-purple-300 bg-gray-300 btn">Log in</a>
+            <a href="" class="ml-3 border border-purple-300 bg-gray-300  btn">sign up</a>
+        </div>
+
+        <header>
+            <h2 class="text-gray-600 text-6xl font-semibold">Recipes</h2>
+            <h3 class="text-2xl">For peoples </h3>
+        </header>
+
+        <div>
+            <h4 class="font-bold mt-8  pb-2 border-b border-gray-400">Latest Recipes</h4>
+
+            <!--card-->
+            <div class="mt-8 grid lg:grid-cols-3 gap-10">
+            <div class="card ">
+                <img src="img/food.jpeg" alt="not" class="w-full h-28 sm:h-48 object-cover">
+                <div class="m-4">
+                    <span class="font-bold">Mandhi</span>
+                    <span class="block font-light">recipe by kannur</span>
+                </div>
+                <div class="badge">
+                    <span>25 MINS</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/food3.jpeg" alt="not" class="w-full h-32 sm:h-48 object-cover">
+                <div class="m-4">
+                    <span class="font-bold">chicken biriyani</span>
+                    <span class="block font-light">recipe by kannur</span>
+                </div>
+                <div class="badge">
+                    <span>25 MINS</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/food2.jpeg" alt="not" class="w-full h-32 sm:h-48 object-cover">
+                <div class="m-4">
+                    <span class="font-bold">Mutton Biriyani</span>
+                    <span class="block font-light">recipe by kannur</span>
+                </div>
+                <div class="badge">
+                    <span>25 MINS</span>
+                </div>
+            </div>
+            </div>
+
+
+            <h4 class="font-bold mt-8 border-b border-gray-400 ">Most Popular</h4>
+            <div class="mt-5">
+                <div class="flex justify-center btn">Load more</div>
+            </div>
+        </div>
+       </main>
+    </div>
+</body>
+</html>
